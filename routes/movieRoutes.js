@@ -2,7 +2,7 @@ import express from "express";
 // Bring in the controller functions
 import { searchMovies, getMovieDetails } from "../controllers/movieController.js";
 
-// Holds the movie routes seperately from the main server file
+// Holds the movie routes separately from the main server file
 const router = express.Router();
 
 // Connect each URL to the function that handles it
